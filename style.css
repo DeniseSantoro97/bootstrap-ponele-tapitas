@@ -334,6 +334,7 @@ footer .container img{
 
 #nuestros-box-nobanner .container {
     padding: 150px 12px;
+    padding-bottom: 10px;
 }
 
 #nuestros-box-nobanner h2 {
@@ -635,6 +636,78 @@ footer .container img{
     ,url("media/scroll8.jpg");
 }
 
+.catalogoCarousel:nth-child(9){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll1.jpg");
+}
+
+.catalogoCarousel:nth-child(10){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll2.jpg");
+}
+
+.catalogoCarousel:nth-child(11){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll3.jpg");
+}
+
+.catalogoCarousel:nth-child(12){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll4.jpg");
+}
+
+.catalogoCarousel:nth-child(13){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll5.jpg");
+}
+
+.catalogoCarousel:nth-child(14){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll6.jpg");
+}
+
+.catalogoCarousel:nth-child(15){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll7.jpg");
+}
+
+.catalogoCarousel:nth-child(16){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.205),
+        rgba(0,0,0,0.205)
+    )
+    ,url("media/scroll8.jpg");
+}
+
 .sectionProd{
     background-color: rgba(247, 188, 229, 0.116); 
 }
@@ -831,7 +904,8 @@ text-align: start;
 }
 
 #contact-nobanner .container {
-    padding: 150px 12px;
+    padding: 70px 12px;
+    padding-bottom: 10px;
 }
 
 #contact-nobanner h2 {
@@ -996,6 +1070,7 @@ textarea:hover {
 }
 
 @media (min-width: 720px) {
+    
 
     .contact-nobanner{
         text-align: center;
@@ -1003,7 +1078,8 @@ textarea:hover {
     }
     
     #contact-nobanner .container {
-        padding: 150px 12px;
+        padding: 230px 12px;
+        padding-bottom: 10px;
     }
     
     #contact-nobanner h2 {
@@ -1081,7 +1157,7 @@ textarea:hover {
 }
 
 #btsTableSection {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1107,7 +1183,7 @@ textarea:hover {
     }
     
     #btsTableSection {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1121,8 +1197,26 @@ textarea:hover {
 
 /* SABORES BST END */
 
+/* PRODUCTOS BST START */
+
+#myRowProd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navProd{
+    background-color: #c2aabc;
+    color: #000000;
+}
+
+/* PRODUCTOS BST END */
+
 /* NOSOTROS BST START */
 
+#collapseBack{
+    background-color: #c2aabc; 
+}
 
 
 /* NOSOTROS BST END */
